@@ -1,0 +1,61 @@
+//============================================================================
+// Name        : Array.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+#define SIZE 10;
+
+
+class Array {
+	// data member
+	int *arr;
+	int size;
+public:
+	Array() {
+		arr = NULL;
+		size = 0;
+	}
+
+	Array(int *arr, int size) {
+		this->arr = arr;
+		this->size = size;
+	}
+
+	void acceptArray() {
+		cout<<"Enter array elements: ";
+		for(int i=0; i<size; i++) {
+			cout<<"arr["<<i<<"] : ";
+			cin>>arr[i];
+		}
+	}
+
+	void printArray() {
+		cout<<"Array elements are : "<<endl;
+		for(int i=0; i<size; i++) {
+			cout<<"arr["<<i<<"] : "<<arr[i]<<endl;
+		}
+	}
+
+
+
+};
+
+
+int main() {
+	int size, *arr;
+	cout<<"Enter size of element : ";
+	cin>>size;
+	arr = new int[size];
+	Array a(arr, size);
+	a.acceptArray();
+	a.printArray();
+
+
+
+	return 0;
+}

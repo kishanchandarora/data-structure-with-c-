@@ -1,0 +1,26 @@
+//============================================================================
+// Name        : Array.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+#define SIZE 10;
+
+
+class Array {
+	// data member
+	int *arr;
+
+
+
+};
+
+
+int main() {
+
+	return 0;
+}

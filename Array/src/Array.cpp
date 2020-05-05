@@ -1,0 +1,182 @@
+//============================================================================
+// Name        : Array.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+#define SIZE 10;
+
+
+class Array {
+	// data member
+	int *arr;
+	int size;
+public:
+	Array() {
+		arr = NULL;
+		size = 0;
+	}
+
+	Array(int *arr, int size) {
+		this->arr = arr;
+		this->size = size;
+	}
+
+	void acceptArray() {
+		cout<<"Enter array elements: "<<endl;
+		for(int i=0; i<size; i++) {
+			cout<<"arr["<<i<<"] : ";
+			cin>>arr[i];
+		}
+	}
+
+	//  traverse
+	void printArray() {
+		cout<<"Array elements are : "<<endl;
+		for(int i=0; i<size; i++) {
+			cout<<"arr["<<i<<"] : "<<arr[i]<<endl;
+		}
+	}
+
+
+
+	// Searching
+	int searchElementInArray(int key) {
+		for(int i=0; i<size; i++) {
+			if(key == arr[i] && arr[i] != -1)
+				return i;
+		}
+		return -1;
+	}
+
+	int countElements() {
+		int count;
+		for(int i=0; i<size; i++) {
+			if(arr[i] != -1)
+				count++;
+		}
+		return count;
+	}
+
+	//insertion
+	void insertionElementInArray(int element, int position) {
+		if(countElements() == size) {
+			cout<<"No enough space found in an array"<<endl;
+		}
+		else {
+			for(int i = size-2; i>=position; i++) {
+				arr[i+1] = arr[i];
+			}
+			arr[position-1] = element;
+			size++;
+		}
+	}
+
+	//deletion
+	void deletionElementInArray(int position) {
+		if(countElements() == 0) {
+			cout<<"Array is already empty"<<endl;
+		}
+		else  {
+			int i;
+			for(i=position-1; i<size-1; i++) {
+				arr[i] = arr[i+1];
+			}
+			arr[i] = -1;
+			size--;
+		}
+	}
+
+	// update
+	void updationElementInArray(int ele, int pos) {
+		if(arr[pos-1] == -1) {
+			size++;
+		}
+		arr[pos-1] = ele;
+	}
+};
+
+int menuList() {
+	int choice;
+	cout<<"0. Exit"<<endl;
+	cout<<"1. Accept Array"<<endl;
+	cout<<"2. Print Array"<<endl;
+	cout<<"3. Search Element In Array"<<endl;
+	cout<<"4. Insertion Element In Array"<<endl;
+	cout<<"5. Deletion Element In Array"<<endl;
+	cout<<"6. Updation Element In Array"<<endl;
+	cout<<"Enter your choice : ";
+	cin>>choice;
+	return choice;
+}
+
+int main() {
+	int size, *arr, index, choice, key, ele, pos;
+	cout<<"Enter size of element : ";
+	cin>>size;
+	arr = new int[size];
+	Array a(arr, size);
+	while((choice = menuList()) != 0) {
+		switch(choice) {
+		case 0:
+			break;
+		case 1:
+			a.acceptArray();
+			break;
+		case 2:
+			a.printArray();
+			break;
+		case 3:
+			cout<<"Enter a element you want to search : ";
+			cin>>key;
+			if((index = a.searchElementInArray(key)) == -1) {
+				cout<<"Element not found"<<endl;
+			}
+			else {
+				cout<<"Element found at index "<<index<<" and its value is "<<key<<endl;
+			}
+			break;
+		case 4:
+			cout<<"Enter Element you want to insert : ";
+			cin>>ele;
+			cout<<"Enter position";
+			cin>>pos;
+			if(pos<1 || pos>size)
+				cout<<"Invalid position"<<endl;
+			else {
+				a.insertionElementInArray(ele, pos);
+				cout<<"Element inserted successfully"<<endl;
+			}
+			break;
+		case 5:
+			cout<<"Enter position of a element you want delete : ";
+			cin>>pos;
+			if(pos<1 || pos>size)
+				cout<<"Invalid position"<<endl;
+			else {
+				a.deletionElementInArray(pos);
+				cout<<"Element deleted successfully"<<endl;
+			}
+			break;
+		case 6:
+			cout<<"Enter Element you want to insert : ";
+			cin>>ele;
+			cout<<"Enter position of a element you want to update ";
+			cin>>pos;
+			if(pos<1 || pos>size)
+				cout<<"Invalid position"<<endl;
+			else {
+				a.updationElementInArray(ele, pos);
+				cout<<"Element updated successfully"<<endl;
+			}
+			break;
+		default:
+			cout<<"Invalid choice!"<<endl<<endl;
+		}
+	}
+	return 0;
+}

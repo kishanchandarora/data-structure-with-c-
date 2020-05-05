@@ -1,0 +1,108 @@
+07:15:12 **** Rebuild of configuration Debug for project Array ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Array.o" "..\\src\\Array.cpp" 
+g++ -o Array.exe "src\\Array.o" 
+07:15:34 **** Incremental Build of configuration Debug for project Array ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Array.o" "..\\src\\Array.cpp" 
+..\src\Array.cpp:11:16: error: expected ']' before ';' token
+   11 | #define SIZE 10;
+      |                ^
+..\src\Array.cpp:16:10: note: in expansion of macro 'SIZE'
+   16 |  int arr[SIZE];
+      |          ^~~~
+..\src\Array.cpp:16:14: error: expected unqualified-id before ']' token
+   16 |  int arr[SIZE];
+      |              ^
+..\src\Array.cpp:18:2: error: expected ';' after class definition
+   18 | }
+      |  ^
+      |  ;
+07:15:49 **** Incremental Build of configuration Debug for project Array ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Array.o" "..\\src\\Array.cpp" 
+..\src\Array.cpp:11:16: error: expected ']' before ';' token
+   11 | #define SIZE 10;
+      |                ^
+..\src\Array.cpp:16:10: note: in expansion of macro 'SIZE'
+   16 |  int arr[SIZE];
+      |          ^~~~
+..\src\Array.cpp:16:14: error: expected unqualified-id before ']' token
+   16 |  int arr[SIZE];
+      |              ^
+07:16:24 **** Incremental Build of configuration Debug for project Array ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Array.o" "..\\src\\Array.cpp" 
+g++ -o Array.exe "src\\Array.o" 
+07:24:10 **** Incremental Build of configuration Debug for project Array ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Array.o" "..\\src\\Array.cpp" 
+g++ -o Array.exe "src\\Array.o" 
+07:24:38 **** Incremental Build of configuration Debug for project Array ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Array.o" "..\\src\\Array.cpp" 
+g++ -o Array.exe "src\\Array.o" 
+07:35:19 **** Incremental Build of configuration Debug for project Array ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Array.o" "..\\src\\Array.cpp" 
+g++ -o Array.exe "src\\Array.o" 
+07:58:27 **** Incremental Build of configuration Debug for project Array ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Array.o" "..\\src\\Array.cpp" 
+g++ -o Array.exe "src\\Array.o" 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Array.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+07:58:39 **** Incremental Build of configuration Debug for project Array ****
+Info: Internal Builder is used for build
+g++ -o Array.exe "src\\Array.o" 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Array.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+07:58:48 **** Incremental Build of configuration Debug for project Array ****
+Info: Internal Builder is used for build
+g++ -o Array.exe "src\\Array.o" 
+08:02:02 **** Incremental Build of configuration Debug for project Array ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Array.o" "..\\src\\Array.cpp" 
+g++ -o Array.exe "src\\Array.o" 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Array.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+08:02:12 **** Incremental Build of configuration Debug for project Array ****
+Info: Internal Builder is used for build
+g++ -o Array.exe "src\\Array.o" 
+08:19:06 **** Incremental Build of configuration Debug for project Array ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Array.o" "..\\src\\Array.cpp" 
+g++ -o Array.exe "src\\Array.o" 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Array.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+08:19:11 **** Incremental Build of configuration Debug for project Array ****
+Info: Internal Builder is used for build
+g++ -o Array.exe "src\\Array.o" 
+Info: Nothing to build for Array
+08:22:22 **** Incremental Build of configuration Debug for project Array ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Array.o" "..\\src\\Array.cpp" 
+g++ -o Array.exe "src\\Array.o" 
+Info: Nothing to build for Array
+08:29:53 **** Incremental Build of configuration Debug for project Array ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Array.o" "..\\src\\Array.cpp" 
+g++ -o Array.exe "src\\Array.o" 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Array.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+08:29:59 **** Incremental Build of configuration Debug for project Array ****
+Info: Internal Builder is used for build
+g++ -o Array.exe "src\\Array.o" 
+Info: Nothing to build for Array
+08:33:54 **** Incremental Build of configuration Debug for project Array ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Array.o" "..\\src\\Array.cpp" 
+g++ -o Array.exe "src\\Array.o" 
+08:35:19 **** Incremental Build of configuration Debug for project Array ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Array.o" "..\\src\\Array.cpp" 
+g++ -o Array.exe "src\\Array.o" 
+08:36:15 **** Incremental Build of configuration Debug for project Array ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Array.o" "..\\src\\Array.cpp" 
+g++ -o Array.exe "src\\Array.o" 
