@@ -261,3 +261,30 @@ Info: Internal Builder is used for build
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\singly_circular_linked_list.o" "..\\src\\singly_circular_linked_list.cpp" 
 g++ -o singly_circular_linked_list.exe "src\\singly_circular_linked_list.o" 
 Info: Nothing to build for singly_circular_linked_list
+07:49:08 **** Rebuild of configuration Debug for project doubly_circular_linked_list ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\doubly_circular_linked_list.o" "..\\src\\doubly_circular_linked_list.cpp" 
+g++ -o doubly_circular_linked_list.exe "src\\doubly_circular_linked_list.o" 
+Info: Nothing to build for doubly_linked_list
+07:56:08 **** Incremental Build of configuration Debug for project doubly_circular_linked_list ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\doubly_circular_linked_list.o" "..\\src\\doubly_circular_linked_list.cpp" 
+g++ -o doubly_circular_linked_list.exe "src\\doubly_circular_linked_list.o" 
+Info: Nothing to build for doubly_circular_linked_list
+07:59:32 **** Incremental Build of configuration Debug for project doubly_circular_linked_list ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\doubly_circular_linked_list.o" "..\\src\\doubly_circular_linked_list.cpp" 
+g++ -o doubly_circular_linked_list.exe "src\\doubly_circular_linked_list.o" 
+08:00:13 **** Incremental Build of configuration Debug for project doubly_circular_linked_list ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\doubly_circular_linked_list.o" "..\\src\\doubly_circular_linked_list.cpp" 
+g++ -o doubly_circular_linked_list.exe "src\\doubly_circular_linked_list.o" 
+08:02:37 **** Incremental Build of configuration Debug for project doubly_circular_linked_list ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\doubly_circular_linked_list.o" "..\\src\\doubly_circular_linked_list.cpp" 
+g++ -o doubly_circular_linked_list.exe "src\\doubly_circular_linked_list.o" 
+08:08:54 **** Incremental Build of configuration Debug for project doubly_circular_linked_list ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\doubly_circular_linked_list.o" "..\\src\\doubly_circular_linked_list.cpp" 
+g++ -o doubly_circular_linked_list.exe "src\\doubly_circular_linked_list.o" 
+Info: Nothing to build for doubly_circular_linked_list
