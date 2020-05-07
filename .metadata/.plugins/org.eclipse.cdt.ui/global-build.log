@@ -106,3 +106,158 @@ g++ -o Array.exe "src\\Array.o"
 Info: Internal Builder is used for build
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Array.o" "..\\src\\Array.cpp" 
 g++ -o Array.exe "src\\Array.o" 
+09:47:25 **** Rebuild of configuration Debug for project singly_linked_list ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\singly_linked_list.o" "..\\src\\singly_linked_list.cpp" 
+g++ -o singly_linked_list.exe "src\\singly_linked_list.o" 
+09:47:51 **** Incremental Build of configuration Debug for project singly_linked_list ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\singly_linked_list.o" "..\\src\\singly_linked_list.cpp" 
+..\src\singly_linked_list.cpp: In function 'int menuList()':
+..\src\singly_linked_list.cpp:79:9: warning: 'choice' is used uninitialized in this function [-Wuninitialized]
+   79 |  return choice;
+      |         ^~~~~~
+g++ -o singly_linked_list.exe "src\\singly_linked_list.o" 
+09:48:18 **** Incremental Build of configuration Debug for project singly_linked_list ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\singly_linked_list.o" "..\\src\\singly_linked_list.cpp" 
+g++ -o singly_linked_list.exe "src\\singly_linked_list.o" 
+Info: Nothing to build for singly_linked_list
+09:49:18 **** Incremental Build of configuration Debug for project singly_linked_list ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\singly_linked_list.o" "..\\src\\singly_linked_list.cpp" 
+g++ -o singly_linked_list.exe "src\\singly_linked_list.o" 
+Info: Nothing to build for singly_linked_list
+09:51:18 **** Incremental Build of configuration Debug for project singly_linked_list ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\singly_linked_list.o" "..\\src\\singly_linked_list.cpp" 
+g++ -o singly_linked_list.exe "src\\singly_linked_list.o" 
+10:00:08 **** Incremental Build of configuration Debug for project singly_linked_list ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\singly_linked_list.o" "..\\src\\singly_linked_list.cpp" 
+g++ -o singly_linked_list.exe "src\\singly_linked_list.o" 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file singly_linked_list.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+10:00:12 **** Incremental Build of configuration Debug for project singly_linked_list ****
+Info: Internal Builder is used for build
+g++ -o singly_linked_list.exe "src\\singly_linked_list.o" 
+10:01:13 **** Incremental Build of configuration Debug for project singly_linked_list ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\singly_linked_list.o" "..\\src\\singly_linked_list.cpp" 
+g++ -o singly_linked_list.exe "src\\singly_linked_list.o" 
+10:03:15 **** Incremental Build of configuration Debug for project singly_linked_list ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\singly_linked_list.o" "..\\src\\singly_linked_list.cpp" 
+g++ -o singly_linked_list.exe "src\\singly_linked_list.o" 
+10:06:10 **** Incremental Build of configuration Debug for project singly_linked_list ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\singly_linked_list.o" "..\\src\\singly_linked_list.cpp" 
+g++ -o singly_linked_list.exe "src\\singly_linked_list.o" 
+10:08:18 **** Incremental Build of configuration Debug for project singly_linked_list ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\singly_linked_list.o" "..\\src\\singly_linked_list.cpp" 
+g++ -o singly_linked_list.exe "src\\singly_linked_list.o" 
+Info: Nothing to build for singly_linked_list
+10:18:53 **** Incremental Build of configuration Debug for project singly_linked_list ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\singly_linked_list.o" "..\\src\\singly_linked_list.cpp" 
+g++ -o singly_linked_list.exe "src\\singly_linked_list.o" 
+10:31:54 **** Incremental Build of configuration Debug for project singly_linked_list ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\singly_linked_list.o" "..\\src\\singly_linked_list.cpp" 
+g++ -o singly_linked_list.exe "src\\singly_linked_list.o" 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file singly_linked_list.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+10:32:00 **** Incremental Build of configuration Debug for project singly_linked_list ****
+Info: Internal Builder is used for build
+g++ -o singly_linked_list.exe "src\\singly_linked_list.o" 
+Info: Nothing to build for singly_linked_list
+10:39:59 **** Incremental Build of configuration Debug for project singly_linked_list ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\singly_linked_list.o" "..\\src\\singly_linked_list.cpp" 
+g++ -o singly_linked_list.exe "src\\singly_linked_list.o" 
+10:42:45 **** Incremental Build of configuration Debug for project singly_linked_list ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\singly_linked_list.o" "..\\src\\singly_linked_list.cpp" 
+g++ -o singly_linked_list.exe "src\\singly_linked_list.o" 
+10:47:27 **** Incremental Build of configuration Debug for project singly_linked_list ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\singly_linked_list.o" "..\\src\\singly_linked_list.cpp" 
+g++ -o singly_linked_list.exe "src\\singly_linked_list.o" 
+10:51:10 **** Incremental Build of configuration Debug for project singly_linked_list ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\singly_linked_list.o" "..\\src\\singly_linked_list.cpp" 
+g++ -o singly_linked_list.exe "src\\singly_linked_list.o" 
+Info: Nothing to build for singly_linked_list
+10:58:23 **** Rebuild of configuration Debug for project doubly_linked_list ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\doubly_linked_list.o" "..\\src\\doubly_linked_list.cpp" 
+g++ -o doubly_linked_list.exe "src\\doubly_linked_list.o" 
+10:58:37 **** Incremental Build of configuration Debug for project doubly_linked_list ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\doubly_linked_list.o" "..\\src\\doubly_linked_list.cpp" 
+g++ -o doubly_linked_list.exe "src\\doubly_linked_list.o" 
+11:02:09 **** Incremental Build of configuration Debug for project doubly_linked_list ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\doubly_linked_list.o" "..\\src\\doubly_linked_list.cpp" 
+g++ -o doubly_linked_list.exe "src\\doubly_linked_list.o" 
+11:07:17 **** Incremental Build of configuration Debug for project doubly_linked_list ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\doubly_linked_list.o" "..\\src\\doubly_linked_list.cpp" 
+g++ -o doubly_linked_list.exe "src\\doubly_linked_list.o" 
+11:08:42 **** Incremental Build of configuration Debug for project doubly_linked_list ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\doubly_linked_list.o" "..\\src\\doubly_linked_list.cpp" 
+g++ -o doubly_linked_list.exe "src\\doubly_linked_list.o" 
+11:10:07 **** Incremental Build of configuration Debug for project doubly_linked_list ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\doubly_linked_list.o" "..\\src\\doubly_linked_list.cpp" 
+g++ -o doubly_linked_list.exe "src\\doubly_linked_list.o" 
+06:56:05 **** Rebuild of configuration Debug for project singly_circular_linked_list ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\singly_circular_linked_list.o" "..\\src\\singly_circular_linked_list.cpp" 
+g++ -o singly_circular_linked_list.exe "src\\singly_circular_linked_list.o" 
+Info: Nothing to build for singly_linked_list
+Info: Nothing to build for singly_circular_linked_list
+07:00:35 **** Incremental Build of configuration Debug for project singly_circular_linked_list ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\singly_circular_linked_list.o" "..\\src\\singly_circular_linked_list.cpp" 
+g++ -o singly_circular_linked_list.exe "src\\singly_circular_linked_list.o" 
+07:02:25 **** Incremental Build of configuration Debug for project singly_circular_linked_list ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\singly_circular_linked_list.o" "..\\src\\singly_circular_linked_list.cpp" 
+g++ -o singly_circular_linked_list.exe "src\\singly_circular_linked_list.o" 
+07:03:33 **** Incremental Build of configuration Debug for project singly_circular_linked_list ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\singly_circular_linked_list.o" "..\\src\\singly_circular_linked_list.cpp" 
+g++ -o singly_circular_linked_list.exe "src\\singly_circular_linked_list.o" 
+07:06:43 **** Incremental Build of configuration Debug for project singly_circular_linked_list ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\singly_circular_linked_list.o" "..\\src\\singly_circular_linked_list.cpp" 
+g++ -o singly_circular_linked_list.exe "src\\singly_circular_linked_list.o" 
+07:09:57 **** Incremental Build of configuration Debug for project singly_circular_linked_list ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\singly_circular_linked_list.o" "..\\src\\singly_circular_linked_list.cpp" 
+g++ -o singly_circular_linked_list.exe "src\\singly_circular_linked_list.o" 
+07:12:45 **** Incremental Build of configuration Debug for project singly_circular_linked_list ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\singly_circular_linked_list.o" "..\\src\\singly_circular_linked_list.cpp" 
+g++ -o singly_circular_linked_list.exe "src\\singly_circular_linked_list.o" 
+07:14:05 **** Incremental Build of configuration Debug for project singly_circular_linked_list ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\singly_circular_linked_list.o" "..\\src\\singly_circular_linked_list.cpp" 
+g++ -o singly_circular_linked_list.exe "src\\singly_circular_linked_list.o" 
+07:16:26 **** Incremental Build of configuration Debug for project singly_circular_linked_list ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\singly_circular_linked_list.o" "..\\src\\singly_circular_linked_list.cpp" 
+g++ -o singly_circular_linked_list.exe "src\\singly_circular_linked_list.o" 
+07:18:09 **** Incremental Build of configuration Debug for project singly_circular_linked_list ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\singly_circular_linked_list.o" "..\\src\\singly_circular_linked_list.cpp" 
+g++ -o singly_circular_linked_list.exe "src\\singly_circular_linked_list.o" 
+Info: Nothing to build for singly_circular_linked_list
+07:20:41 **** Incremental Build of configuration Debug for project singly_circular_linked_list ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\singly_circular_linked_list.o" "..\\src\\singly_circular_linked_list.cpp" 
+g++ -o singly_circular_linked_list.exe "src\\singly_circular_linked_list.o" 
+Info: Nothing to build for singly_circular_linked_list
