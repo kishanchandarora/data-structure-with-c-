@@ -1,12 +1,16 @@
 LaunchTargetManager/configs/Array\ Debug=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/circular_queue_array_based.exe=org.eclipse.launchbar.core.launchTargetType.local\:Local
 LaunchTargetManager/configs/doubly_circular_linked_list\ Debug=org.eclipse.launchbar.core.launchTargetType.local\:Local
 LaunchTargetManager/configs/doubly_linked_list\ Debug=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/linear_queue_array_based\ Debug=org.eclipse.launchbar.core.launchTargetType.local\:Local
 LaunchTargetManager/configs/singly_circular_linked_list\ Debug\ (1)=org.eclipse.launchbar.core.launchTargetType.local\:Local
 LaunchTargetManager/configs/singly_linked_list\ Debug=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/stack_array_based\ Debug=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/stack_linked_list_based\ Debug\ (1)=org.eclipse.launchbar.core.launchTargetType.local\:Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
-configDescList=org.eclipse.launchbar.core.descriptorType.default\:Array Debug,org.eclipse.launchbar.core.descriptorType.default\:singly_linked_list Debug,org.eclipse.launchbar.core.descriptorType.default\:doubly_linked_list Debug,org.eclipse.launchbar.core.descriptorType.default\:singly_circular_linked_list Debug,org.eclipse.launchbar.core.descriptorType.default\:singly_circular_linked_list Debug (1),org.eclipse.launchbar.core.descriptorType.default\:doubly_circular_linked_list Debug
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:Array Debug,org.eclipse.launchbar.core.descriptorType.default\:doubly_circular_linked_list Debug,org.eclipse.launchbar.core.descriptorType.default\:doubly_linked_list Debug,org.eclipse.launchbar.core.descriptorType.default\:singly_circular_linked_list Debug (1),org.eclipse.launchbar.core.descriptorType.default\:singly_circular_linked_list Debug,org.eclipse.launchbar.core.descriptorType.default\:singly_linked_list Debug,org.eclipse.launchbar.core.descriptorType.default\:stack_array_based Debug,org.eclipse.launchbar.core.descriptorType.default\:stack_linked_list_based Debug,org.eclipse.launchbar.core.descriptorType.default\:stack_linked_list_based Debug (1),org.eclipse.launchbar.core.descriptorType.default\:linear_queue_array_based Debug,org.eclipse.launchbar.core.descriptorType.default\:linear_queue_linked_list_based Debug,org.eclipse.launchbar.core.descriptorType.default\:circular_queue_array_based.exe
 eclipse.preferences.version=1
 org.eclipse.launchbar.core.descriptorType.default\:Array\ Debug/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:Array\ Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

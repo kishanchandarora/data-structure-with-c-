@@ -288,3 +288,394 @@ Info: Internal Builder is used for build
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\doubly_circular_linked_list.o" "..\\src\\doubly_circular_linked_list.cpp" 
 g++ -o doubly_circular_linked_list.exe "src\\doubly_circular_linked_list.o" 
 Info: Nothing to build for doubly_circular_linked_list
+08:31:15 **** Rebuild of configuration Debug for project stack_array_based ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\stack_array_based.o" "..\\src\\stack_array_based.cpp" 
+g++ -o stack_array_based.exe "src\\stack_array_based.o" 
+08:31:53 **** Incremental Build of configuration Debug for project stack_array_based ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\stack_array_based.o" "..\\src\\stack_array_based.cpp" 
+..\src\stack_array_based.cpp: In member function 'bool Stack::isFull()':
+..\src\stack_array_based.cpp:27:13: error: 'size' was not declared in this scope; did you mean '_msize'?
+   27 |   if(top == size-1)
+      |             ^~~~
+      |             _msize
+08:33:19 **** Incremental Build of configuration Debug for project stack_array_based ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\stack_array_based.o" "..\\src\\stack_array_based.cpp" 
+..\src\stack_array_based.cpp: In member function 'bool Stack::isFull()':
+..\src\stack_array_based.cpp:27:13: error: 'size' was not declared in this scope; did you mean '_msize'?
+   27 |   if(top == size-1)
+      |             ^~~~
+      |             _msize
+08:34:04 **** Incremental Build of configuration Debug for project stack_array_based ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\stack_array_based.o" "..\\src\\stack_array_based.cpp" 
+g++ -o stack_array_based.exe "src\\stack_array_based.o" 
+08:42:08 **** Incremental Build of configuration Debug for project stack_array_based ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\stack_array_based.o" "..\\src\\stack_array_based.cpp" 
+..\src\stack_array_based.cpp: In member function 'int Stack::pop()':
+..\src\stack_array_based.cpp:68:2: warning: control reaches end of non-void function [-Wreturn-type]
+   68 |  }
+      |  ^
+..\src\stack_array_based.cpp: In member function 'int Stack::peek()':
+..\src\stack_array_based.cpp:76:2: warning: control reaches end of non-void function [-Wreturn-type]
+   76 |  }
+      |  ^
+g++ -o stack_array_based.exe "src\\stack_array_based.o" 
+08:42:47 **** Incremental Build of configuration Debug for project stack_array_based ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\stack_array_based.o" "..\\src\\stack_array_based.cpp" 
+..\src\stack_array_based.cpp: In member function 'int Stack::pop()':
+..\src\stack_array_based.cpp:72:2: warning: control reaches end of non-void function [-Wreturn-type]
+   72 |  }
+      |  ^
+..\src\stack_array_based.cpp: In member function 'int Stack::peek()':
+..\src\stack_array_based.cpp:80:2: warning: control reaches end of non-void function [-Wreturn-type]
+   80 |  }
+      |  ^
+g++ -o stack_array_based.exe "src\\stack_array_based.o" 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file stack_array_based.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+08:42:53 **** Incremental Build of configuration Debug for project stack_array_based ****
+Info: Internal Builder is used for build
+g++ -o stack_array_based.exe "src\\stack_array_based.o" 
+08:45:19 **** Incremental Build of configuration Debug for project stack_array_based ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\stack_array_based.o" "..\\src\\stack_array_based.cpp" 
+..\src\stack_array_based.cpp:34:2: error: 'int Stack::size()' conflicts with a previous declaration
+   34 |  }
+      |  ^
+..\src\stack_array_based.cpp:15:6: note: previous declaration 'int Stack::size'
+   15 |  int size;
+      |      ^~~~
+..\src\stack_array_based.cpp: In function 'int main()':
+..\src\stack_array_based.cpp:104:14: error: no matching function for call to 'Stack::Stack(int [10])'
+  104 |  Stack st(arr);
+      |              ^
+..\src\stack_array_based.cpp:23:2: note: candidate: 'Stack::Stack(int*, int)'
+   23 |  Stack(int *arr, int size) {
+      |  ^~~~~
+..\src\stack_array_based.cpp:23:2: note:   candidate expects 2 arguments, 1 provided
+..\src\stack_array_based.cpp:17:2: note: candidate: 'Stack::Stack()'
+   17 |  Stack() {
+      |  ^~~~~
+..\src\stack_array_based.cpp:17:2: note:   candidate expects 0 arguments, 1 provided
+..\src\stack_array_based.cpp:12:7: note: candidate: 'constexpr Stack::Stack(const Stack&)'
+   12 | class Stack {
+      |       ^~~~~
+..\src\stack_array_based.cpp:12:7: note:   no known conversion for argument 1 from 'int [10]' to 'const Stack&'
+..\src\stack_array_based.cpp:12:7: note: candidate: 'constexpr Stack::Stack(Stack&&)'
+..\src\stack_array_based.cpp:12:7: note:   no known conversion for argument 1 from 'int [10]' to 'Stack&&'
+..\src\stack_array_based.cpp:122:7: error: 'int Stack::size' is private within this context
+  122 |    st.size();
+      |       ^~~~
+..\src\stack_array_based.cpp:15:6: note: declared private here
+   15 |  int size;
+      |      ^~~~
+..\src\stack_array_based.cpp:122:12: error: expression cannot be used as a function
+  122 |    st.size();
+      |            ^
+..\src\stack_array_based.cpp: In member function 'int Stack::pop()':
+..\src\stack_array_based.cpp:75:2: warning: control reaches end of non-void function [-Wreturn-type]
+   75 |  }
+      |  ^
+..\src\stack_array_based.cpp: In member function 'int Stack::peek()':
+..\src\stack_array_based.cpp:83:2: warning: control reaches end of non-void function [-Wreturn-type]
+   83 |  }
+      |  ^
+08:46:49 **** Incremental Build of configuration Debug for project stack_array_based ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\stack_array_based.o" "..\\src\\stack_array_based.cpp" 
+..\src\stack_array_based.cpp: In member function 'int Stack::pop()':
+..\src\stack_array_based.cpp:75:2: warning: control reaches end of non-void function [-Wreturn-type]
+   75 |  }
+      |  ^
+..\src\stack_array_based.cpp: In member function 'int Stack::peek()':
+..\src\stack_array_based.cpp:83:2: warning: control reaches end of non-void function [-Wreturn-type]
+   83 |  }
+      |  ^
+g++ -o stack_array_based.exe "src\\stack_array_based.o" 
+08:47:35 **** Incremental Build of configuration Debug for project stack_array_based ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\stack_array_based.o" "..\\src\\stack_array_based.cpp" 
+..\src\stack_array_based.cpp: In member function 'int Stack::pop()':
+..\src\stack_array_based.cpp:75:2: warning: control reaches end of non-void function [-Wreturn-type]
+   75 |  }
+      |  ^
+..\src\stack_array_based.cpp: In member function 'int Stack::peek()':
+..\src\stack_array_based.cpp:83:2: warning: control reaches end of non-void function [-Wreturn-type]
+   83 |  }
+      |  ^
+g++ -o stack_array_based.exe "src\\stack_array_based.o" 
+08:48:38 **** Incremental Build of configuration Debug for project stack_array_based ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\stack_array_based.o" "..\\src\\stack_array_based.cpp" 
+..\src\stack_array_based.cpp: In member function 'int Stack::pop()':
+..\src\stack_array_based.cpp:76:2: warning: control reaches end of non-void function [-Wreturn-type]
+   76 |  }
+      |  ^
+..\src\stack_array_based.cpp: In member function 'int Stack::peek()':
+..\src\stack_array_based.cpp:84:2: warning: control reaches end of non-void function [-Wreturn-type]
+   84 |  }
+      |  ^
+g++ -o stack_array_based.exe "src\\stack_array_based.o" 
+08:49:23 **** Incremental Build of configuration Debug for project stack_array_based ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\stack_array_based.o" "..\\src\\stack_array_based.cpp" 
+..\src\stack_array_based.cpp: In member function 'int Stack::pop()':
+..\src\stack_array_based.cpp:76:2: warning: control reaches end of non-void function [-Wreturn-type]
+   76 |  }
+      |  ^
+..\src\stack_array_based.cpp: In member function 'int Stack::peek()':
+..\src\stack_array_based.cpp:84:2: warning: control reaches end of non-void function [-Wreturn-type]
+   84 |  }
+      |  ^
+g++ -o stack_array_based.exe "src\\stack_array_based.o" 
+Info: Nothing to build for stack_array_based
+08:51:26 **** Incremental Build of configuration Debug for project stack_array_based ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\stack_array_based.o" "..\\src\\stack_array_based.cpp" 
+..\src\stack_array_based.cpp: In member function 'int Stack::pop()':
+..\src\stack_array_based.cpp:76:2: warning: control reaches end of non-void function [-Wreturn-type]
+   76 |  }
+      |  ^
+..\src\stack_array_based.cpp: In member function 'int Stack::peek()':
+..\src\stack_array_based.cpp:84:2: warning: control reaches end of non-void function [-Wreturn-type]
+   84 |  }
+      |  ^
+g++ -o stack_array_based.exe "src\\stack_array_based.o" 
+08:52:36 **** Incremental Build of configuration Debug for project stack_array_based ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\stack_array_based.o" "..\\src\\stack_array_based.cpp" 
+..\src\stack_array_based.cpp: In member function 'int Stack::pop()':
+..\src\stack_array_based.cpp:76:2: warning: control reaches end of non-void function [-Wreturn-type]
+   76 |  }
+      |  ^
+g++ -o stack_array_based.exe "src\\stack_array_based.o" 
+08:54:06 **** Incremental Build of configuration Debug for project stack_array_based ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\stack_array_based.o" "..\\src\\stack_array_based.cpp" 
+..\src\stack_array_based.cpp: In member function 'int Stack::pop()':
+..\src\stack_array_based.cpp:76:2: warning: control reaches end of non-void function [-Wreturn-type]
+   76 |  }
+      |  ^
+g++ -o stack_array_based.exe "src\\stack_array_based.o" 
+Info: Nothing to build for stack_array_based
+Info: Nothing to build for stack_array_based
+Info: Nothing to build for stack_array_based
+08:00:27 **** Rebuild of configuration Debug for project stack_linked_list_based ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\stack_linked_list_based.o" "..\\src\\stack_linked_list_based.cpp" 
+g++ -o stack_linked_list_based.exe "src\\stack_linked_list_based.o" 
+08:00:47 **** Incremental Build of configuration Debug for project stack_linked_list_based ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\stack_linked_list_based.o" "..\\src\\stack_linked_list_based.cpp" 
+..\src\stack_linked_list_based.cpp: In function 'int main()':
+..\src\stack_linked_list_based.cpp:98:19: warning: unused variable 'pos' [-Wunused-variable]
+   98 |  int choice, ele, pos;
+      |                   ^~~
+g++ -o stack_linked_list_based.exe "src\\stack_linked_list_based.o" 
+08:02:13 **** Incremental Build of configuration Debug for project stack_linked_list_based ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\stack_linked_list_based.o" "..\\src\\stack_linked_list_based.cpp" 
+..\src\stack_linked_list_based.cpp: In function 'int main()':
+..\src\stack_linked_list_based.cpp:97:19: warning: unused variable 'pos' [-Wunused-variable]
+   97 |  int choice, ele, pos;
+      |                   ^~~
+g++ -o stack_linked_list_based.exe "src\\stack_linked_list_based.o" 
+09:15:27 **** Rebuild of configuration Debug for project linear_queue_array_based ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\linear_queue_array_based.o" "..\\src\\linear_queue_array_based.cpp" 
+g++ -o linear_queue_array_based.exe "src\\linear_queue_array_based.o" 
+Info: Nothing to build for stack_array_based
+Info: Nothing to build for stack_linked_list_based
+Info: Nothing to build for linear_queue_array_based
+09:16:08 **** Incremental Build of configuration Debug for project linear_queue_array_based ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\linear_queue_array_based.o" "..\\src\\linear_queue_array_based.cpp" 
+..\src\linear_queue_array_based.cpp: In constructor 'Queue::Queue(int, int)':
+..\src\linear_queue_array_based.cpp:25:15: error: invalid conversion from 'int' to 'int*' [-fpermissive]
+   25 |   this->arr = arr;
+      |               ^~~
+      |               |
+      |               int
+..\src\linear_queue_array_based.cpp: In function 'int main()':
+..\src\linear_queue_array_based.cpp:113:11: error: invalid conversion from 'int*' to 'int' [-fpermissive]
+  113 |  Queue qu(arr, 10);
+      |           ^~~
+      |           |
+      |           int*
+..\src\linear_queue_array_based.cpp:24:12: note:   initializing argument 1 of 'Queue::Queue(int, int)'
+   24 |  Queue(int arr, int size) {
+      |        ~~~~^~~
+09:16:31 **** Incremental Build of configuration Debug for project linear_queue_array_based ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\linear_queue_array_based.o" "..\\src\\linear_queue_array_based.cpp" 
+g++ -o linear_queue_array_based.exe "src\\linear_queue_array_based.o" 
+09:17:36 **** Incremental Build of configuration Debug for project linear_queue_array_based ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\linear_queue_array_based.o" "..\\src\\linear_queue_array_based.cpp" 
+g++ -o linear_queue_array_based.exe "src\\linear_queue_array_based.o" 
+09:19:32 **** Incremental Build of configuration Debug for project linear_queue_array_based ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\linear_queue_array_based.o" "..\\src\\linear_queue_array_based.cpp" 
+g++ -o linear_queue_array_based.exe "src\\linear_queue_array_based.o" 
+Info: Nothing to build for linear_queue_array_based
+Info: Nothing to build for linear_queue_array_based
+09:22:49 **** Incremental Build of configuration Debug for project linear_queue_array_based ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\linear_queue_array_based.o" "..\\src\\linear_queue_array_based.cpp" 
+g++ -o linear_queue_array_based.exe "src\\linear_queue_array_based.o" 
+09:31:27 **** Incremental Build of configuration Debug for project linear_queue_array_based ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\linear_queue_array_based.o" "..\\src\\linear_queue_array_based.cpp" 
+g++ -o linear_queue_array_based.exe "src\\linear_queue_array_based.o" 
+09:31:35 **** Rebuild of configuration Debug for project linear_queue_linked_list_based ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\linear_queue_linked_list_based.o" "..\\src\\linear_queue_linked_list_based.cpp" 
+g++ -o linear_queue_linked_list_based.exe "src\\linear_queue_linked_list_based.o" 
+Info: Nothing to build for singly_linked_list
+Info: Nothing to build for stack_linked_list_based
+Info: Nothing to build for linear_queue_linked_list_based
+09:31:59 **** Incremental Build of configuration Debug for project linear_queue_linked_list_based ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\linear_queue_linked_list_based.o" "..\\src\\linear_queue_linked_list_based.cpp" 
+g++ -o linear_queue_linked_list_based.exe "src\\linear_queue_linked_list_based.o" 
+08:06:40 **** Rebuild of configuration Debug for project circular_queue_array_based ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\circular_queue_array_based.o" "..\\src\\circular_queue_array_based.cpp" 
+g++ -o circular_queue_array_based.exe "src\\circular_queue_array_based.o" 
+08:06:55 **** Incremental Build of configuration Debug for project circular_queue_array_based ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\circular_queue_array_based.o" "..\\src\\circular_queue_array_based.cpp" 
+..\src\circular_queue_array_based.cpp: In function 'int main()':
+..\src\circular_queue_array_based.cpp:83:8: error: 'Queue::Queue()' is private within this context
+   83 |  Queue qu;
+      |        ^~
+..\src\circular_queue_array_based.cpp:18:2: note: declared private here
+   18 |  Queue() {
+      |  ^~~~~
+..\src\circular_queue_array_based.cpp:97:18: error: 'bool Queue::isEmpty()' is private within this context
+   97 |    if(qu.isEmpty())
+      |                  ^
+..\src\circular_queue_array_based.cpp:40:7: note: declared private here
+   40 |  bool isEmpty() {
+      |       ^~~~~~~
+..\src\circular_queue_array_based.cpp:101:19: error: 'void Queue::printQueue()' is private within this context
+  101 |     qu.printQueue();
+      |                   ^
+..\src\circular_queue_array_based.cpp:73:7: note: declared private here
+   73 |  void printQueue() {
+      |       ^~~~~~~~~~
+..\src\circular_queue_array_based.cpp:106:17: error: 'bool Queue::isFull()' is private within this context
+  106 |    if(qu.isFull())
+      |                 ^
+..\src\circular_queue_array_based.cpp:33:7: note: declared private here
+   33 |  bool isFull() {
+      |       ^~~~~~
+..\src\circular_queue_array_based.cpp:111:19: error: 'void Queue::enQueue(int)' is private within this context
+  111 |     qu.enQueue(ele);
+      |                   ^
+..\src\circular_queue_array_based.cpp:46:7: note: declared private here
+   46 |  void enQueue(int data) {
+      |       ^~~~~~~
+..\src\circular_queue_array_based.cpp:117:18: error: 'bool Queue::isEmpty()' is private within this context
+  117 |    if(qu.isEmpty())
+      |                  ^
+..\src\circular_queue_array_based.cpp:40:7: note: declared private here
+   40 |  bool isEmpty() {
+      |       ^~~~~~~
+..\src\circular_queue_array_based.cpp:120:19: error: 'int Queue::peek()' is private within this context
+  120 |     ele = qu.peek();
+      |                   ^
+..\src\circular_queue_array_based.cpp:66:6: note: declared private here
+   66 |  int peek() {
+      |      ^~~~
+..\src\circular_queue_array_based.cpp:121:16: error: 'void Queue::deQueue()' is private within this context
+  121 |     qu.deQueue();
+      |                ^
+..\src\circular_queue_array_based.cpp:54:7: note: declared private here
+   54 |  void deQueue() {
+      |       ^~~~~~~
+08:07:21 **** Incremental Build of configuration Debug for project circular_queue_array_based ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\circular_queue_array_based.o" "..\\src\\circular_queue_array_based.cpp" 
+..\src\circular_queue_array_based.cpp: In function 'int main()':
+..\src\circular_queue_array_based.cpp:83:8: error: 'Queue::Queue()' is private within this context
+   83 |  Queue qu;
+      |        ^~
+..\src\circular_queue_array_based.cpp:18:2: note: declared private here
+   18 |  Queue() {
+      |  ^~~~~
+..\src\circular_queue_array_based.cpp:97:18: error: 'bool Queue::isEmpty()' is private within this context
+   97 |    if(qu.isEmpty())
+      |                  ^
+..\src\circular_queue_array_based.cpp:40:7: note: declared private here
+   40 |  bool isEmpty() {
+      |       ^~~~~~~
+..\src\circular_queue_array_based.cpp:101:19: error: 'void Queue::printQueue()' is private within this context
+  101 |     qu.printQueue();
+      |                   ^
+..\src\circular_queue_array_based.cpp:73:7: note: declared private here
+   73 |  void printQueue() {
+      |       ^~~~~~~~~~
+..\src\circular_queue_array_based.cpp:106:17: error: 'bool Queue::isFull()' is private within this context
+  106 |    if(qu.isFull())
+      |                 ^
+..\src\circular_queue_array_based.cpp:33:7: note: declared private here
+   33 |  bool isFull() {
+      |       ^~~~~~
+..\src\circular_queue_array_based.cpp:111:19: error: 'void Queue::enQueue(int)' is private within this context
+  111 |     qu.enQueue(ele);
+      |                   ^
+..\src\circular_queue_array_based.cpp:46:7: note: declared private here
+   46 |  void enQueue(int data) {
+      |       ^~~~~~~
+..\src\circular_queue_array_based.cpp:117:18: error: 'bool Queue::isEmpty()' is private within this context
+  117 |    if(qu.isEmpty())
+      |                  ^
+..\src\circular_queue_array_based.cpp:40:7: note: declared private here
+   40 |  bool isEmpty() {
+      |       ^~~~~~~
+..\src\circular_queue_array_based.cpp:120:19: error: 'int Queue::peek()' is private within this context
+  120 |     ele = qu.peek();
+      |                   ^
+..\src\circular_queue_array_based.cpp:66:6: note: declared private here
+   66 |  int peek() {
+      |      ^~~~
+..\src\circular_queue_array_based.cpp:121:16: error: 'void Queue::deQueue()' is private within this context
+  121 |     qu.deQueue();
+      |                ^
+..\src\circular_queue_array_based.cpp:54:7: note: declared private here
+   54 |  void deQueue() {
+      |       ^~~~~~~
+08:07:30 **** Incremental Build of configuration Debug for project circular_queue_array_based ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\circular_queue_array_based.o" "..\\src\\circular_queue_array_based.cpp" 
+g++ -o circular_queue_array_based.exe "src\\circular_queue_array_based.o" 
+08:08:37 **** Incremental Build of configuration Debug for project circular_queue_array_based ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\circular_queue_array_based.o" "..\\src\\circular_queue_array_based.cpp" 
+g++ -o circular_queue_array_based.exe "src\\circular_queue_array_based.o" 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file circular_queue_array_based.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+08:08:49 **** Incremental Build of configuration Debug for project circular_queue_array_based ****
+Info: Internal Builder is used for build
+g++ -o circular_queue_array_based.exe "src\\circular_queue_array_based.o" 
+Info: Nothing to build for circular_queue_array_based
+08:09:31 **** Incremental Build of configuration Debug for project circular_queue_array_based ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\circular_queue_array_based.o" "..\\src\\circular_queue_array_based.cpp" 
+g++ -o circular_queue_array_based.exe "src\\circular_queue_array_based.o" 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file circular_queue_array_based.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+08:09:45 **** Incremental Build of configuration Debug for project circular_queue_array_based ****
+Info: Internal Builder is used for build
+g++ -o circular_queue_array_based.exe "src\\circular_queue_array_based.o" 
+08:12:42 **** Incremental Build of configuration Debug for project circular_queue_array_based ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\circular_queue_array_based.o" "..\\src\\circular_queue_array_based.cpp" 
+g++ -o circular_queue_array_based.exe "src\\circular_queue_array_based.o" 
+Info: Nothing to build for circular_queue_array_based
